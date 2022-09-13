@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vw;
+    background-color: aqua;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'passion one', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vw;
+}
+
+header > p {
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'sriracha', Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+section.imagem > p {
+    width: 41vw;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 5px;
+}
+
+section#joaninha {
+    background: url(imagens/background001.jpg) left center no-repeat fixed;
+    background-size: cover;
+}
+
+section#paginas {
+    background: url(imagens/background002.jpg) left center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
