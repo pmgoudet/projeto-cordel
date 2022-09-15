@@ -68,8 +68,11 @@ section.imagem > p {
 }
 
 section#joaninha {
-    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#paginas {
